@@ -95,3 +95,19 @@ Imagine running a restaurant kitchen: **AegisGate** is the head waiter dispatchi
 ### Quality bar (every repo, no exceptions)
 
 `python -m pytest -q` passes **fully offline** (deterministic mock LLM/embedding clients — no API keys needed to verify anything), ruff-clean, MIT-licensed, with design decisions **and their trade-offs** written down (e.g., AegisGate's README documents why budget pressure *lowers* a max-tier ceiling instead of raising a minimum tier — the intuitive version would accelerate burn, not cut it). Real provider calls are opt-in via `.env` (see each repo's `.env.example`).
+
+### The 10-point scorecard (how each repo is graded)
+
+Every repo is scored against the same rubric; the score is only as good as the evidence behind it, so each point cites a test, file, or workflow:
+
+| Criterion | Points | What earns them |
+|---|---|---|
+| Production architecture & honest trade-offs | **1.5** | Real system shape (not a toy), design decisions with documented alternatives and costs |
+| Correctness proven offline | **2.0** | Comprehensive pytest suite, zero network/keys, hand-verified statistical or domain fixtures, edge-case and hostile-input coverage |
+| Industry-framework integration w/ fallback | **1.5** | Where an industry standard exists (Langfuse, Redis, OpenTelemetry, Qdrant, HF ecosystem) it is the *production* path behind an env guard — and the hand-rolled path remains as the offline fallback so tests never need infrastructure |
+| Security posture | **1.5** | SECURITY.md threat model + concrete enforced defenses (auth, size caps, hostile-file rejection, secrets hygiene) |
+| Scalability | **1.5** | Horizontal-scale story that actually works: swappable stores (Redis/Qdrant), batch/async processing, isolation semantics, docker-compose production topology |
+| Observability | **1.0** | Metrics + tracing + forensics hooks emitting the shared portfolio span schema |
+| Developer experience | **1.0** | Two-layer README (plain-English + engineering depth), quickstart that works first try, CI workflow (lint + tests + dependency audit) |
+
+**10/10 = a system you could hand to a production team tomorrow**, with the receipts to prove every claim. Scores land here as each repo finishes its hardening pass.
