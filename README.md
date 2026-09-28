@@ -85,7 +85,7 @@ Imagine running a restaurant kitchen: **AegisGate** is the head waiter dispatchi
 | **[AegisGate](AegisGate/)** | Self-healing LLM gateway · doc bot · rate limiting + fallback · semantic cache · cost autopilot · feature flags | ✅ Pushed — **91 offline tests in 1.52s**, ~3.5k LOC src + 1.6k LOC tests; full ASGI gateway lifecycle tested (SSE, 401/429, breaker half-open recovery, autopilot downgrade under simulated budget burn) |
 | **[VerdictAI](VerdictAI/)** | LLM-as-judge w/ human calibration · eval dataset generator · regression detection | ✅ Pushed — **148 offline tests in 0.61s**, 3.6k LOC src; statistics hand-implemented (kappa, QWK, Spearman, PAV isotonic, paired bootstrap CI, Wilcoxon, Cliff's delta) with hand-worked fixtures |
 | **[ForensiQ](ForensiQ/)** | Failure forensics for AI pipelines | 🔨 In build — RAG_showcase span/eval vocabulary aligned |
-| **[SwarmResearch](SwarmResearch/)** | Multiagent research assistant · orchestration system | 🔨 In build — hand-rolled async graph runtime w/ checkpoint+resume |
+| **[SwarmResearch](SwarmResearch/)** | Multiagent research assistant · orchestration system | ✅ Pushed — **73 offline tests in 1.6s**, 3.3k LOC src + 1.4k LOC tests; crash-resume proven with execution counters, planted contradiction surfaced in report, zero uncited sentences, hallucination rate 0.0 |
 | **[Model-Distillery](Model-Distillery/)** | Model distillation pipeline | ⏳ Queued |
 | **[RedForge](RedForge/)** | Red team harness · prompt-injection defense (recruiting) | ⏳ Queued |
 | **[HVAC-Copilot](HVAC-Copilot/)** | Multimodal document processor · HVAC RAG assistant | ⏳ Queued |
