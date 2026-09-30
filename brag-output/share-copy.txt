@@ -1,0 +1,1 @@
+I made a whiteboard lecture that tours my own AI portfolio — 8 systems, one restaurant analogy (gateway = head waiter, RedForge = the mystery diner), and every number measured, not claimed. Episode 1 of a series where I learn my own repos out loud. Glossary included.

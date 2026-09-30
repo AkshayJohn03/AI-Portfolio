@@ -1,0 +1,1 @@
+First, the basics. Because every system here protects one thing: the L L M. An L L M is a very well-read autocomplete engine. You type; it predicts the answer a few words at a time. Around it sits the pipeline: fetch documents, clean them, search them, build a prompt, call the model, check the answer. Every serious AI product is that assembly line.

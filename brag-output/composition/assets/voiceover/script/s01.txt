@@ -1,0 +1,1 @@
+Building a demo with AI takes a weekend. Running it for a real business is a different job. It breaks silently. Bills can spike ten times overnight. Attackers hide tricks inside your documents. And when it fails, nobody can prove why. This portfolio is the operating room that makes AI trustworthy in production. Every number measured, not claimed.
