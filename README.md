@@ -40,6 +40,26 @@ Imagine running a restaurant kitchen: **AegisGate** is the head waiter dispatchi
 
 ---
 
+
+## 🎬 Learn the platform — the whiteboard series
+
+Ten explainer lectures (one per repo, ~6 minutes each, narration, every keyword defined on screen) plus a `GLOSSARY.md` per repo. Study order matches the numbers. Each video lives in its repo at `brag-output/brag.mp4`.
+
+| # | Episode | Repo | Video | Glossary |
+|---|---------|------|-------|----------|
+| 1 | The map — the whole portfolio | [AI-Portfolio](.) | [6m43s](brag-output/brag.mp4) | [GLOSSARY](GLOSSARY.md) |
+| 2 | The traffic controller for AI | [AegisGate](AegisGate/) | [6m38s](AegisGate/brag-output/brag.mp4) | [GLOSSARY](AegisGate/GLOSSARY.md) |
+| 3 | A repair manual that answers back | [HVAC-Copilot](HVAC-Copilot/) | [6m02s](HVAC-Copilot/brag-output/brag.mp4) | [GLOSSARY](HVAC-Copilot/GLOSSARY.md) |
+| 4 | An exam grader that learns from humans | [VerdictAI](VerdictAI/) | [6m50s](VerdictAI/brag-output/brag.mp4) | [GLOSSARY](VerdictAI/GLOSSARY.md) |
+| 5 | The flight recorder + detective | [ForensiQ](ForensiQ/) | [6m47s](ForensiQ/brag-output/brag.mp4) | [GLOSSARY](ForensiQ/GLOSSARY.md) |
+| 6 | A research team in a box | [SwarmResearch](SwarmResearch/) | [6m07s](SwarmResearch/brag-output/brag.mp4) | [GLOSSARY](SwarmResearch/GLOSSARY.md) |
+| 7 | The friendly burglar you hire first | [RedForge](RedForge/) | [6m54s](RedForge/brag-output/brag.mp4) | [GLOSSARY](RedForge/GLOSSARY.md) |
+| 8 | Training a junior chef | [Model-Distillery](Model-Distillery/) | [6m06s](Model-Distillery/brag-output/brag.mp4) | [GLOSSARY](Model-Distillery/GLOSSARY.md) |
+| 9 | The robot that re-skins decks | [BrandMorph](BrandMorph/) | [6m05s](BrandMorph/brag-output/brag.mp4) | [GLOSSARY](BrandMorph/GLOSSARY.md) |
+| 10 | The picture on the box, assembled | [PlatformDemo](PlatformDemo/) | [6m07s](PlatformDemo/brag-output/brag.mp4) | [GLOSSARY](PlatformDemo/GLOSSARY.md) |
+
+Interactive version: [PipelineViz](PipelineViz/) — the same journey as a scroll-driven 3D site.
+
 ## 🔵 For engineers — the systems and how they interconnect
 
 ```
