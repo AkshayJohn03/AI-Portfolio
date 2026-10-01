@@ -1,5 +1,8 @@
 # AI Systems Portfolio — Akshay John Xavier
 
+[![▶ whiteboard explainer video · 6m43s](https://img.shields.io/badge/%E2%96%B6_whiteboard_explainer-6m43s-E8B44A?style=flat-square&logo=googleplay&logoColor=white)](brag-output/brag.mp4)
+
+
 *Senior AI Engineer / ML & AI Architect — 8 production-grade systems covering the full lifecycle of LLM applications: build → serve → observe → evaluate → secure → compress.*
 
 ---
